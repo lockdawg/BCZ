@@ -267,6 +267,6 @@ function setup_node() {
 clear
 
 #checks
-prepare_system
+#prepare_system
 compile_node
 setup_node
