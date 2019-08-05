@@ -27,8 +27,8 @@ function compile_node() {
   COIN_ZIP=$(echo $COIN_REPO | awk -F'/' '{print $NF}')
   tar xvf linux-x64.tar.gz
   compile_error
-  cp bcz-cli /usr/local/bin
-  cp bczd /usr/local/bin
+  sudo cp bcz-cli /usr/local/bin
+  sudo cp bczd /usr/local/bin
   compile_error
   strip $COIN_DAEMON $COIN_CLI
   cd - >/dev/null 2>&1
