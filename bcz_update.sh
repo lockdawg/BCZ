@@ -3,7 +3,7 @@
 TMP_FOLDER=$(mktemp -d)
 COIN_DAEMON='/usr/local/bin/bczd'
 COIN_CLI='/usr/local/bin/bcz-cli'
-COIN_REPO='https://github.com/BitcoinCZ/bitcoincz/releases/download/6.0.0.8/linux-x64.tar.gz'
+COIN_REPO='https://github.com/BitcoinCZ/bitcoincz/releases/download/6.0.0.9/linux-x64.tar.gz'
 COIN_NAME='BCZ'
 #COIN_BS='http://bootstrap.zip'
 
