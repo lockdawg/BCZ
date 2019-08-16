@@ -1,7 +1,7 @@
 # BCZ
 Use this shell script to install a [BCZ Masternode](https://www.bitcoincz.org/) on a Linux server running Ubuntu 16.04.  
 This will require a VPS, I use [Vultr](https://www.vultr.com/?ref=7310394).  I recommend using a $5 server.
-This script will install **BCZ Core v6.0.0.8 **.
+This script will install **BCZ Core v6.0.0.9 **.
 ***
 
 ## Installation:
