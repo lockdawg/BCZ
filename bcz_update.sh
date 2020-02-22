@@ -3,7 +3,7 @@
 TMP_FOLDER=$(mktemp -d)
 COIN_DAEMON='/usr/local/bin/bczd'
 COIN_CLI='/usr/local/bin/bcz-cli'
-COIN_REPO='https://github.com/BitcoinCZ/bitcoincz/releases/download/6.0.1.2/linux-x64.tar.gz'
+COIN_REPO='https://github.com/SpecialCoins/bitcoincz/releases/download/6.0.1.7/linux-pc.tar.gz'
 COIN_NAME='BCZ'
 #COIN_BS='http://bootstrap.zip'
 
@@ -18,7 +18,7 @@ function update_node() {
   wget -q $COIN_REPO
   compile_error
   COIN_ZIP=$(echo $COIN_REPO | awk -F'/' '{print $NF}')
-  tar xvf linux-x64.tar.gz
+  tar xvf linux-pc.tar.gz
   compile_error
   cp bcz-cli /usr/local/bin
   cp bczd /usr/local/bin
